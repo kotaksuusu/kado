@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="desain.css">
+        <title>ini kado?</title>
+    </head>
+    <body>
+       
+        <!-- <h1> HAI CANTIQ !</h1>
+        <img src="https://i.pinimg.com/originals/32/64/bc/3264bcc47ee47ebbdd441f9f1d203542.gif" alt="">
+        <h1> GG Banget gak sih?</h1>
+        <div class="iya">
+            <button id="btn_Heem" onclick="alert( 'MAKASIH KAK CIPA' )">Heem</button>
+        </div>
+        <div class="tidak">
+            <button id="btn_Gaak" onclick="Gaak(this)" style="position: absolute;"> Gaak</button>
+        </div> -->
+        <div class="container-fluid d-flex justify-content-center kartu">
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/originals/b0/9a/06/b09a0682c2cd4d291bf195d52870affd.gif" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">HALLOOO KAKAK FIRDAA</h5>
+                  <p class="card-text"> Aku keren banget kann?</p>
+                </div>
+                <div class="card-body tombol d-flex justify-content-center">
+                    <div class="row w-100">
+                        <div class="col-6">
+                            <button id="btn_Heem" onclick="alert( 'Selamat Ulang Tahuuunn!!! <3 <3' )">
+                                <a href="flower.html"> Heem </a>
+                            </button>
+                        </div>
+                       <div class="ama">
+                            <button id="btn_Gaak" onclick="Gaak(this)" style="position: absolute;"> Gaak</button>
+                       </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+      
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+      </script>
+    </body>
+    <script>
+        function Gaak(id){
+            var Heem = document.getElementById("btn_Heem");
+            var i = Math.floor(Math.random() * 300) + 1;
+            var j = Math.floor(Math.random() * 100) + Heem.offsetTop;
+            id.style.left = i + "px";
+            id.style.top =j + "px";
+        }
+    </script>
+</html>
